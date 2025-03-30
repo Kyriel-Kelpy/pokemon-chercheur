@@ -124,8 +124,7 @@ input, button{
 @media (max-width: 768px) {
    
     body {
-        background-image: url('img/pikachu2.jpeg');
-        background-attachment: scroll;
+        background-image: url('img/pikachu-mobile.jpg');
     }
 
     .box {
