@@ -1,0 +1,120 @@
+body{
+    background-image: url('img/Pikachu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+input, button{
+    height: 2rem;
+}
+
+.search-btn {
+    background: orangered;
+    border: 1px solid orangered;
+    font: inherit; 
+    color: white; 
+    cursor: pointer; /* Garde le curseur pointer */
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#btn-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+
+.nav-btn{
+    border: 1px solid black;
+    font: inherit; 
+    cursor: pointer; /* Garde le curseur pointer */
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.info-box{
+    height: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pokemon-id, #pokemon-name, #pokemon-tag{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#pokemon-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#pokemon-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#sprite {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-pikachu{
+    width: 80px;;
+    height: auto;
+}
+
+.box-header{
+    display: flex;
+    justify-content: center;
+}
+
+#pokedex{
+    margin: 10px 0px 10px 0px;
+}
+
+#pokemon-types{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+.stats-elt{
+    border: 2px solid orangered;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.stats-box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.box{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.main{
+    height: auto;
+    padding: 20px;
+}
+

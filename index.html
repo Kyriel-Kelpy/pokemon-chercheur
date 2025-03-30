@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/pikachu-chercheur.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Poké-Chercheur</title>
+</head>
+<body>
+    <div class="box box-header">
+        <h1>Poké-Chercheur</h1>
+        <img src="img/pikachu-chercheur.png" alt="Pikach avec une loupe" class="logo-pikachu">
+    </div>
+    
+
+    <div class="main box">
+        <p>Entrez le nom ou l'ID d'un Pokémon :</p>
+        <input type="text" name="" id="search-input" required>
+        <button id="search-button" class="search-btn">Rechercher</button>
+
+        <div id="btn-navigation">
+            <button id="prev-button" class="nav-btn" >
+                ⋘
+            </button>
+            
+            <button id="next-button" class="nav-btn">
+                ⋙
+            </button>
+        </div>
+
+        <div class="info-box">
+            <div id="pokemon-id"></div>
+            <div id="pokemon-name"></div>
+            <div id="weight"></div>
+            <div id="height"></div>
+        </div>
+       
+        <div id="pokemon-img" style="text-align: center;"></div>
+
+        <div id="types"></div>
+        
+        <div id="pokedex">
+            <span id="pokemon-tag"></span>
+            <div id="pokedex-entry"></div>
+        </div>
+       
+
+        <div class="stats-box">
+            <div class="stats-elt">Caractéristiques </div>
+            <div class="stats-elt">Statistiques</div>
+            <div class="stats-elt">HP:</div>
+            <div id="hp" class="stats-elt"></div>
+            <div class="stats-elt">Attaque :</div>
+            <div id="attack" class="stats-elt"></div>
+            <div class="stats-elt">Défense :</div>
+            <div id="defense" class="stats-elt"></div>
+            <div class="stats-elt">Attaque Sp. :</div>
+            <div id="special-attack" class="stats-elt"></div>
+            <div class="stats-elt">Défense Sp.:</div>
+            <div id="special-defense" class="stats-elt"></div>
+            <div class="stats-elt">Vitesse :</div>
+            <div id="speed" class="stats-elt"></div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
