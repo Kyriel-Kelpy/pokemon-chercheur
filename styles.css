@@ -122,10 +122,7 @@ input, button{
 
 /* Styles pour les écrans de plus de 768px (tablettes et ordinateurs) */
 @media (max-width: 768px) {
-    body {
-        background-size: auto;
-        background-position: top center;
-    }
+   
 
     .box {
         width: 90%;
@@ -138,9 +135,6 @@ input, button{
         margin-bottom: 5px;
     }
 
-    .stats-box {
-        grid-template-columns: 1fr;
-    }
 
     .stats-elt {
         font-size: 14px;
@@ -148,7 +142,6 @@ input, button{
 
     .search-btn, .nav-btn {
         font-size: 1.2rem;
-        padding: 5px 10px;
     }
 
     #pokemon-id, #pokemon-name, #pokemon-tag {
@@ -173,7 +166,6 @@ input, button{
 
     .search-btn, .nav-btn {
         font-size: 1.1rem;
-        padding: 5px 8px;
     }
 
     #pokemon-name, #pokemon-id {
@@ -188,9 +180,6 @@ input, button{
         max-width: 90%;
     }
 
-    .stats-box {
-        grid-template-columns: 1fr;
-    }
 
     #pokemon-id, #pokemon-name, #pokemon-tag, #pokedex-entry {
         margin-bottom: 10px;
