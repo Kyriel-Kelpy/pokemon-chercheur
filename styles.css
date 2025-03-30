@@ -122,7 +122,10 @@ input, button{
 
 /* Styles pour les écrans de plus de 768px (tablettes et ordinateurs) */
 @media (max-width: 768px) {
-   
+    body {
+        background-attachment: scroll;
+        background-size: contain;
+    }   
 
     .box {
         width: 90%;
@@ -157,6 +160,8 @@ input, button{
 @media (max-width: 480px) {
     body {
         font-size: 14px;
+        background-attachment: scroll;
+        background-size: contain;
     }
 
     .box {
