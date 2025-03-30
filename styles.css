@@ -125,6 +125,7 @@ input, button{
    
     body {
         background-image: url('img/pikachu2.jpeg');
+        background-attachment: scroll;
     }
 
     .box {
