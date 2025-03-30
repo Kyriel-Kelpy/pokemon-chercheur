@@ -118,3 +118,81 @@ input, button{
     padding: 20px;
 }
 
+
+
+/* Styles pour les écrans de plus de 768px (tablettes et ordinateurs) */
+@media (max-width: 768px) {
+    body {
+        background-size: auto;
+        background-position: top center;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .info-box {
+        height: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .stats-box {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-elt {
+        font-size: 14px;
+    }
+
+    .search-btn, .nav-btn {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+    }
+
+    #pokemon-id, #pokemon-name, #pokemon-tag {
+        font-size: 20px;
+    }
+
+    #pokemon-img img {
+        max-width: 80%;
+    }
+}
+
+/* Styles pour les écrans de moins de 480px (smartphones en portrait) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .box {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .search-btn, .nav-btn {
+        font-size: 1.1rem;
+        padding: 5px 8px;
+    }
+
+    #pokemon-name, #pokemon-id {
+        font-size: 18px;
+    }
+
+    .stats-elt {
+        font-size: 12px;
+    }
+
+    #pokemon-img img {
+        max-width: 90%;
+    }
+
+    .stats-box {
+        grid-template-columns: 1fr;
+    }
+
+    #pokemon-id, #pokemon-name, #pokemon-tag, #pokedex-entry {
+        margin-bottom: 10px;
+    }
+}
